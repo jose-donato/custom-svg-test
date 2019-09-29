@@ -2082,6 +2082,14 @@ expo-sqlite@~7.0.0:
     "@types/websql" "^0.0.27"
     lodash "^4.17.15"
 
+expo-svg-uri@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/expo-svg-uri/-/expo-svg-uri-1.1.0.tgz#d73c62891bcc45bc3ed60077b61e624362023c77"
+  integrity sha512-12D/G+QGJeo1JXbAruglNAUuI31qroWPKcNo2ke8hxegBTA2Wo6AIv/8hMuyL2M3p6CJXvvBKjrPWYTP3YOMYw==
+  dependencies:
+    react-native-svg "^9.9.4"
+    xmldom "^0.1.27"
+
 expo-web-browser@~7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/expo-web-browser/-/expo-web-browser-7.0.1.tgz#b64ef895b5c0604f312b64b085f7a2f1da630e20"
@@ -4269,7 +4277,7 @@ react-native-svg-transformer@^0.13.0:
     "@svgr/core" "^4.1.0"
     semver "^5.6.0"
 
-react-native-svg@~9.9.2:
+react-native-svg@^9.9.4, react-native-svg@~9.9.2:
   version "9.9.9"
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.9.9.tgz#67c83b56d7a292162762a6d389dc78512558c2ca"
   integrity sha512-a/wxzEaAqWZ3uYwTJKo8sj2gURmEs4xBB83tx5gK9rpoEixzHfsj8+qLacwmQrHab7nf+tWj56INMTSPqm60oA==
@@ -5348,7 +5356,7 @@ xmldoc@^0.4.0:
   dependencies:
     sax "~1.1.1"
 
-xmldom@0.1.x:
+xmldom@0.1.x, xmldom@^0.1.27:
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
   integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=

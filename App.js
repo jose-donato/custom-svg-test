@@ -1,12 +1,18 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 import CustomIcon from './assets/love.svg'
+
+import Svg from './components/svg/svg.component'
+
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <CustomIcon width={120} height={120} />
+      <Svg source={'fire'} width={120} height={120} />
+      <Svg source={'love'} width={120} height={120} />
+      <Svg source={'passion'} width={120} height={120} />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -16,4 +22,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
